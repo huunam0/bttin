@@ -1,64 +1,7 @@
-![](RackMultipart20201018-4-1ysqixx_html_652cd9db1af98de1.gif) ![](RackMultipart20201018-4-1ysqixx_html_7f294a88e139fa9b.gif)
-
 # **XỬ LÍ SỐ NGUYÊN LỚN TRONG C++**
 
-**PHỤ LỤC**
 
-# [Phần thứ nhất 3](#_Toc472687951)
-
-[MỞ ĐẦU 3](#_Toc472687952)
-
-[Phần thứ hai 4](#_Toc472687953)
-
-[NỘI DUNG CHUYÊN ĐỀ 4](#_Toc472687954)
-
-[I. CÁC PHÉP TOÁN XỬ LÍ SỐ NGUYÊN LỚN 4](#_Toc472687955)
-
-[I.1. Biểu diễn số nguyên lớn 4](#_Toc472687956)
-
-[I.2. Các phép toán xử lí số nguyên lớn 4](#_Toc472687957)
-
-[I.2.1. Cộng 2 số nguyên lớn 4](#_Toc472687958)
-
-[I.2.2. Trừ 2 số nguyên lớn (Trừ số lớn cho số bé) 5](#_Toc472687959)
-
-[I.2.3. Nhân một số nguyên lớn với một nguyên số nhỏ 6](#_Toc472687960)
-
-[I.2.4. Nhân 2 số nguyên lớn 7](#_Toc472687961)
-
-[I.2.5. Chia số nguyên lớn cho số nguyên nhỏ 8](#_Toc472687962)
-
-[I.2.6. Chia hai số nguyên lớn 9](#_Toc472687963)
-
-[II. BÀI TẬP VẬN DỤNG 11](#_Toc472687964)
-
-[II.1. Tách N thành tổng các số fibonacci (bài 2.11 sgk chuyên tin quyển 1) 11](#_Toc472687965)
-
-[II.2. Chuyển cơ số (bài 2.13 sgk chuyên tin quyển 1) 15](#_Toc472687966)
-
-[II.3. Nguồn của một số (bài 2.18 sgk chuyên tin quyển 1) 19](#_Toc472687967)
-
-[II.4. Số các ước và tổng ước của N! (bài 2.19 sgk chuyên tin quyển 1) 22](#_Toc472687968)
-
-[II.5. Cân đĩa (Bài 2.20 sgk chuyên tin quyển 1) 27](#_Toc472687969)
-
-[II.6. Hoán vị xâu (bài 2.22 sgk chuyên tin quyển 1) 32](#_Toc472687970)
-
-[II.7. Đánh số trang sách (bài 2.23 sgk chuyên tin quyển 1) 35](#_Toc472687971)
-
-[II.8. Hái nấm (bài 2.25 sgk chuyên tin quyển 1) 39](#_Toc472687972)
-
-[III. BÀI TẬP LUYỆN TẬP 44](#_Toc472687973)
-
-[Phần thứ ba 45](#_Toc472687974)
-
-[KẾT LUẬN 45](#_Toc472687975)
-
-[TÀI LIỆU THAM KHẢO 45](#_Toc472687976)
-
-# **Phần thứ nhất**
-
-# **MỞ ĐẦU**
+**MỞ ĐẦU**
 
 Số học là một nội dung rất quan trọng nó giúp cho chúng ta hiểu cách biểu diễn và xử lý thông tin trong máy tính. Khi mới học lập trình học sinh bắt đầu bằng giải các bài toán số học cơ bản như: kiểm tra tính nguyên tố của một số nguyên dương, tìm ước chung lớn nhất của 2 số nguyên dương, phân tích một số nguyên dương thành tích các thừa số nguyên tố, các bài toán chia hết, … Có rất nhiều bài toán khó khi giải bằng các giải thuật trừu tượng khó hiểu đôi khi không hiệu quả. Ta có thể phân tích bài toán và giải nó bằng các thuật toán số học sẽ hiệu quả hơn.
 
@@ -84,11 +27,8 @@ Tuy nhiên có nhiều bài toán có thuật toán khá đơn giản nhưng đ�
 
 Rất mong được chia sẻ và nhận được sự đóng góp của quý thầy cô.
 
-# **Phần thứ hai**
 
-# **NỘI DUNG CHUYÊN ĐỀ**
 
-# **I. CÁC PHÉP TOÁN XỬ LÍ SỐ NGUYÊN LỚN**
 
 ## **I.1. Biểu diễn số nguyên lớn**
 
@@ -102,7 +42,7 @@ _ **\* Danh sách liên kết các số:** _ Sử dụng danh sách liên kết 
 
 ## **I.2. Các phép toán xử lí số nguyên lớn**
 
-## **I.2.1. Cộng 2 số nguyên lớn**
+### **I.2.1. Cộng 2 số nguyên lớn**
 
 **a. Phân tích thuật toán**
 
@@ -131,7 +71,7 @@ _ **tổng = tổng % 10;** _
 | string Congxau(string a, string b){string c;long n1=a.length(),n2=b.length(),i,nho=0,Tong;if(n1\&gt;n2) b.insert(0,n1-n2,&#39;0&#39;);if(n1\&lt;n2) a.insert(0,n2-n1,&#39;0&#39;);c=a;for(i=a.length()-1;i\&gt;=0;i--){Tong=(a[i]-48)+(b[i]-48)+nho;nho=Tong/10;Tong=Tong%10;c[i]=char(Tong+48);}if(nho\&gt;0)c=char(nho+48)+c;return c;} |
 | --- |
 
-## **I.2.2. Trừ 2 số nguyên lớn (Trừ số lớn cho số bé)**
+### **I.2.2. Trừ 2 số nguyên lớn (Trừ số lớn cho số bé)**
 
 **a. Phân tích thuật toán**
 
@@ -160,7 +100,7 @@ _ **Nếu hiệu\&gt;0 thì mượn =0;** _
 | string Truxau(string a, string b){string c=&quot;&quot;;long n1=a.length(),n2=b.length(),i,Muon=0,Hieu;if(n1\&gt;n2) b.insert(0,n1-n2,&#39;0&#39;);for(i=a.length()-1;i\&gt;=0;i--){Hieu=(a[i]-48)-(b[i]-48)-Muon;if(Hieu\&lt;0){Hieu+=10;Muon=1;}else Muon=0;c=char(Hieu+48)+c;}while(c.length()\&gt;1&amp;&amp;c[0]==&#39;0&#39;) c.erase(0,1);return c;} |
 | --- |
 
-## **I.2.3. Nhân một số nguyên lớn với một nguyên số nhỏ**
+### **I.2.3. Nhân một số nguyên lớn với một nguyên số nhỏ**
 
 **a. Phân tích thuật toán**
 
@@ -185,7 +125,7 @@ _ **Tích = tích % 10;** _
 | string Nhan1so(string a, int k){string b;long i,Nho=0,Tich;for(i=a.length()-1;i\&gt;=0;i--){Tich=Nho+(a[i]-48)\*k;Nho=Tich/10;Tich=Tich%10;b=b+char(Tich+48);}if(Nho!=0) b=char(Nho+48)+b;while(b.length()\&gt;1&amp;&amp;b[0]==&#39;0&#39;) b.erase(0,1);return b;} |
 | --- |
 
-## **I.2.4. Nhân 2 số nguyên lớn**
+### **I.2.4. Nhân 2 số nguyên lớn**
 
 **a. Phân tích thuật toán**
 
@@ -202,7 +142,7 @@ _ **Tích = tích % 10;** _
 | string Nhanxau(string a, string b){string x,Tg1=&quot;0&quot;,Tg2,c;long i,j=0;for(i=b.length()-1;i\&gt;=0;i--){Tg2=Nhan1so(a,(b[i]-48));Tg2.insert(Tg2.length(),j,&#39;0&#39;);j++;c=Congxau(Tg1,Tg2);Tg1=c;}return c;} |
 | --- |
 
-## **I.2.5. Chia số nguyên lớn cho số nguyên nhỏ**
+### **I.2.5. Chia số nguyên lớn cho số nguyên nhỏ**
 
 _ **Bước 1:** _ Duyệt từ đầu xâu số nguyên lớn
 
@@ -227,7 +167,7 @@ _ **dư = chia % 10;** _
 | void chia\_so(char a[],long b,char div[],char mod[]){long i,n=strlen(a),du=0,so,chia,thuong;char tg[10],luu[100000]=&quot;&quot;;for(i=0;i\&lt;n;i++){strncpy(tg,a+i,1);tg[1]=&#39;\0&#39;;so=atoi(tg);chia=du\*10+so;du=chia%b;thuong=chia/b;itoa(thuong,luu,10);strcat(div,luu);}itoa(du,luu,10);strcpy(mod,luu);i=0;while(i\&lt;strlen(div)-1 &amp;&amp; div[i]==&#39;0&#39;) i++;strcpy(luu,&quot;&quot;);strncpy(luu,div+i,strlen(div)-i);luu[strlen(div)-i]=&#39;\0&#39;;strcpy(div,luu);} |
 | --- |
 
-## **I.2.6. Chia hai số nguyên lớn**
+### **I.2.6. Chia hai số nguyên lớn**
 
 **a. Phân tích thuật toán**
 
@@ -570,7 +510,7 @@ Chú ý: ô có A[i][j]=&quot;0&quot; luôn đi vào được.
 
 [http://www.mediafire.com/file/yk2e38w38wsrmqs/ExamsHV.rar](http://www.mediafire.com/file/yk2e38w38wsrmqs/ExamsHV.rar)
 
-# **III. BÀI TẬP LUYỆN TẬP**
+## **BÀI TẬP LUYỆN TẬP**
 
 [http://vn.spoj.com/problems/CHUOIHAT/](http://vn.spoj.com/problems/CHUOIHAT/)
 
@@ -582,18 +522,4 @@ Chú ý: ô có A[i][j]=&quot;0&quot; luôn đi vào được.
 
 [http://vn.spoj.com/problems/TREEPATH/](http://vn.spoj.com/problems/TREEPATH/)
 
-# **Phần thứ ba**
 
-# **KẾT LUẬN**
-
-Chuyên đề này tôi mới trình bày, cài đặt các phép toán với số nguyên lớn và giải một số bài toán có thuật toán đơn giản có thể áp dụng trực tiếp các phép toán số học. Còn rất nhiều bài tập khó cần phải xử lí số nguyên lớn mà tôi chưa đề cập đến.
-
-Thời gian viết chuyên đề có hạn, không tránh khỏi những sai sót, rất mong được sự góp ý kiến của các thầy cô.
-
-_Cảm ơn các thày cô đã đọc tài liệu!_
-
-# **TÀI LIỆU THAM KHẢO**
-
-Tài liệu sách giáo khoa chuyên tin – Hồ Sỹ Đàm chủ biên
-
-Trang web: [http://www.vn.spoj.com](http://www.vn.spoj.com/)
