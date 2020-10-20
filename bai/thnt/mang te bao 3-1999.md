@@ -10,7 +10,7 @@ Mạng tế bào có dạng một lưới ô vuông hình chữ nhật. Tại m�
 
 - Dòng đầu tiên chứa 3 số nguyên M, N, T theo thứ tự là số dòng, số cột của lưới và số nhịp thời gian (1 ≤ M, N ≤ 200; T ≤ 100);
 - Dòng thứ hai chứa xâu tín hiệu vào S;
-- M dòng tiếp theo mô tả qui luật truyền tin. Dòng thứ i trong số M dòng này chứa N số $a_i1, a_i2, ..., a_iN$, trong đó giá trị của $a_ij$ sẽ là 1, 2, 3, 4, 5, 6, 7, 8 tương ứng lần lượt nếu ô (i, j) phải truyền tin cho ô kề cạnh bên trái, bên phải, bên trên, bên dưới, bên trên và bên dưới, bên trái và bên phải, bên trên và bên trái, bên dưới và bên phải (xem hình vẽ); còn nếu ô (i, j) không phải truyền tín hiệu thì $a_ij$ = 0.
+- M dòng tiếp theo mô tả qui luật truyền tin. Dòng thứ i trong số M dòng này chứa N số $a_{i1}, a_{i2}, ..., a_{iN}$, trong đó giá trị của $a_{ij}$ sẽ là 1, 2, 3, 4, 5, 6, 7, 8 tương ứng lần lượt nếu ô (i, j) phải truyền tin cho ô kề cạnh bên trái, bên phải, bên trên, bên dưới, bên trên và bên dưới, bên trái và bên phải, bên trên và bên trái, bên dưới và bên phải (xem hình vẽ); còn nếu ô (i, j) không phải truyền tín hiệu thì $a_{ij}$ = 0.
 
 ![](img/tinhieu.jpg)
 
@@ -20,7 +20,7 @@ Mạng tế bào có dạng một lưới ô vuông hình chữ nhật. Tại m�
 
 | P3.INP | P3.OUT |
 | --- |  --- |
-| 2 2 5 <br/>101XX<br/> 2 4<br/>2 1 |11<br/>01 |
+| 2 2 5 <br/>101XX<br/> 2 4<br/>2 1 |11<br/>01<br/> <br/> |
 
 Quá trình biến đổi trạng thái được diễn tả trong hình dưới đây:
 
