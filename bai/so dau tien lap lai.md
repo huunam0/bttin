@@ -21,7 +21,7 @@ Ví dụ mảng A = {2, 1, 4, 6, 4, 6} thì số 4 là số đầu tiên lặp l
 
 ## Giới hạn
 
-- 1 <= N <= 10^7.
-- Các phần tử của mảng A có giá trị tuyệt đối không quá 10^6
+- $1 <= N <= 10^7$.
+- Các phần tử của mảng A có giá trị tuyệt đối không quá $10^6$
 
 (Mã bài: #SOLAPDAUTIEN)
