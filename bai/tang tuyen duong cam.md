@@ -22,6 +22,6 @@ Hãy lập trình giúp nhà quản lý tăng tối đa số đường cấm cá
 
 |GiaoThong.inp|GiaoThong.out|
 |---|---|
-|5 9<br/>1 2 2<br/>1 3 3<br/>1 4 3<br/>1 5 0<br/>2 3 1<br/>2 5 2<br/>3 4 3<br/>3 5 1<br/>4 5 3|3<br/>2 5 2<br/>3 4 3<br/>3 5 1|
+|5 9<br/>1 2 2<br/>1 3 3<br/>1 4 3<br/>1 5 0<br/>2 3 1<br/>2 5 2<br/>3 4 3<br/>3 5 1<br/>4 5 3|3<br/>2 5 2<br/>3 4 3<br/>3 5 1<br/><br/><br/><br/><br/><br/>|
 
-Nguồn: Đề thi chọn đội tuyển HSG 12 tỉnh Bình Định năm 2019
+_Nguồn: Đề thi chọn đội tuyển HSG 12 tỉnh Bình Định năm 2019_
