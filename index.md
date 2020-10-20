@@ -5,3 +5,5 @@
 Chào các bạn, đây là bài tập tin x^2
 
 \(x_2+1\)
+
+$x^3+3x=1$
