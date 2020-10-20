@@ -3,3 +3,5 @@
 </script>
 
 Chào các bạn, đây là bài tập tin x^2
+
+\(x_2+1\)
