@@ -6,7 +6,7 @@ Như các bạn đã biết dãy số Fibonaci là dãy 1, 1, 2, 3, 5, 8, .... D
 
 $ F_1 = 1, 
 F_2 = 1, 
-F_n = F_{n-1} + F_{n-2} với n > 2 $
+F_n = F_{n-1} + F_{n-2} $ với n > 2 
 
 1. Chứng minh khẳng định sau:
 
@@ -18,7 +18,7 @@ Khi đó, ta nói N có biểu diễn Fibonaci là $a_ka_{k-1}...a_2a_1$.
 
 2. Cho trước số tự nhiên N, hãy tìm biểu diễn Fibonaci của số N.
 
-**Input: **
+**Input:**
 
 Tệp văn bản P11.INP bao gồm nhiều dòng. Mỗi dòng ghi một số tự nhiên.
 
